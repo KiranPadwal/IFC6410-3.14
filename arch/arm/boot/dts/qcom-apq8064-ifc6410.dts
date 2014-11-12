@@ -110,6 +110,10 @@
 				pinctrl-0	= <&card_detect>;
 				cd-gpios	= <&tlmm_pinmux 26 GPIO_ACTIVE_LOW>;
 			};
+			/* WLAN */
+			sdcc4: sdcc@121c0000 {
+				status = "okay";
+			};
 		};
 	};
 };
